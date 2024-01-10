@@ -4,7 +4,7 @@
 
 #### ✔️ 상단부 : 타이틀
 - 로고 : 이미지 그려서 삽입
-```
+```html
 <div class="top">
     <img src="movie_green.png" class="img_movie">
 </div>
