@@ -12,7 +12,7 @@
 - 로고 이미지 클릭시 새로고침
 #### ✔️ 중단부 : 검색창
 - 영화 검색 텍스트, input, 부트스트랩 button 삽입
-```
+```html
 <div class="search">
     영화 검색 : <input id="user_input" onkeypress="if( event.keyCode == 13 ){search();}">
     <button id="myBtn" type="button" onclick="search()" class="btn btn-outline-light">검색</button>
@@ -26,7 +26,7 @@
 #### ✔️ 하단부 : 영화 목록
 - TMDB API 연동
 - 부트스트랩 cards 이용해서 TMDB에서 받아온 영화 api 정보를 담을 card 생성
-```
+```html
 <div class="mycards">
     <div id="card" class="row row-cols-1 row-cols-md-4 g-4">
     </div>
